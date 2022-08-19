@@ -1,8 +1,15 @@
+@font-face {
+    font-family: Roboto;
+    src: url(sansation_light.woff);
+  }
+  
+
 body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Roboto';
 }
 
 .box-one {
@@ -10,6 +17,7 @@ body{
     background-color: #1f2937;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto';
 }
 
 .header{
@@ -100,21 +108,21 @@ body{
 
 .info-card-container {
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .card{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 170px;
     gap: 10px;
 }
 
 .card-img-placeholder {
     border-color: #3882f6;
     border-radius: 10px;
-    
-    height: 150px;
+    border-width: 5px;
+    height: 170px;
     background-color: white;
     border-style: solid;
 }
@@ -127,7 +135,7 @@ body{
 .box-three {
     background-color: #e5e7eb;
     display: flex;
-    padding: 100px;
+    padding: 100px 300px 100px 300px;
     flex-direction: column;
 }
 
@@ -168,6 +176,7 @@ body{
 
 .call-to-action-button{
     background-color: #3882f6;
+    border-style: solid;
     color: #f9faf8;
     size: 18px;
     font-weight: bold;
